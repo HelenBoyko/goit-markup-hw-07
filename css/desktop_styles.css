@@ -67,22 +67,6 @@ button {
 }
 
 /* ===================HEADER ===================*/
-.logo-header {
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    /* margin-right: 76px; */
-}
-
-.logo-color {
-    color: #2e2f42;
-}
-
 .header {
     background: #FFFFFF;
     margin-top: 0;
@@ -90,40 +74,9 @@ button {
 }
 
 .container {
-
-    padding-left: 16px;
-    padding-right: 16px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-@media screen and (min-width:428px) {
-    .container {
-        width: 396px;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: tomato;
-    }
-
-}
-
-@media screen and (min-width:768px) {
-    .container {
-        width: 736px;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: grey;
-    }
-
-}
-
-@media screen and (min-width:1158px) {
-    .container {
-        width: 1128px;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: rgb(40, 172, 40);
-    }
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 
 }
 
@@ -135,28 +88,6 @@ button {
     text-decoration: none;
 
 }
-
-.mobile-menu-open {
-    background-color: transparent;
-    border: transparent;
-}
-
-.icon-menu-hamburger {
-    fill: var(--title-text-color);
-
-}
-
-/* 
-
-
-.container {
-    max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-
-}
-
-
 
 .no-scroll {
     overflow: hidden;
@@ -173,7 +104,21 @@ button {
     align-items: center;
 }
 
+.logo-header {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+}
 
+.logo-color {
+    color: #2e2f42;
+}
 
 .menu {
     display: flex;
@@ -230,7 +175,7 @@ button {
 .contact:hover,
 .contact:focus {
     color: #404BBF;
-} */
+}
 
 /* ===================HERO  ===================*/
 .hero {
