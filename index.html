@@ -44,10 +44,6 @@
           </ul>
           </div>
         </nav>
-        <button type="button" class="mobile-menu-open">
-          <svg class="icon-menu-hamburger" width="32" height="22"><use href="./images/icons.svg#icon-menu-hamburger"></use></svg>
-         </button>
-          
         <address class="address-block">
           <ul class="list menu">
             <li class="item">
@@ -59,9 +55,36 @@
             </li>
           </ul>
         </address>
+
+        <button type="button" class="mobile-menu-open" mobile-menu-open>
+          <svg class="icon-menu-hamburger" width="32" height="22"><use href="./images/icons.svg#icon-menu-hamburger"></use></svg>
+        </button>
+          
+ 
       </div>
-      <div class="mobile-socmedia-list-container">
-          <ul class="mobile-socmedia-list list">
+      <div class="mobile-menu is-hidden" mobile-menu>
+        <div class="container mobile-menu_container">
+          
+          <div>
+          <button type="button" class="mobile-menu_close-btn" mobile-menu-close>
+             <svg class="icon icon-close-black">
+               <use href="./images/icons.svg#icon-close-black"></use>
+             </svg>
+           </button>
+          <ul class="mobile-nav-menu list">
+            <li class="mobile-nav-item"><a class="menu-link link" href="./index.html">Studio</a></li>
+            <li class="mobile-nav-item"><a class="menu-link link" href="./portfolio.html">Portfolio</a></li>
+            <li class="mobile-nav-item"><a class="menu-link link" href="#">Contacts</a></li>
+          </ul>
+         </div>
+         
+          <div> 
+          <ul class="mobile-adress-menu">
+              <li class="list"><a class="tel link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+              <li class="list"><a class="mailto link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            </ul>
+         
+            <ul class="mobile-socmedia-list list">
               <li class="link socmedia-list-item">
                 <a
                   href="https://instagram.com/"
@@ -96,8 +119,12 @@
                   ><svg class="mobile-socmedia-list-icon">
                     <use href="./images/icons.svg#icon-linkedin"></use></svg></a>
               </li>
-          </ul>
+            </ul>
+             
+        </div>
+        </div>
       </div>
+      
     </header>
     <!-- =================== Main =================== -->
     <main>
@@ -619,7 +646,6 @@
         </form>
       </div>
     </div>-->
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init()
@@ -627,4 +653,4 @@
     <script src="./JS/modal.js"></script>
     <script src="./JS/mobile-menu.js"></script> 
   </body>
-</html>
+  </html>
