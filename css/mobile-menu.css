@@ -1,0 +1,123 @@
+.icon-menu-hamburger {
+    margin-left: auto;
+    fill: var(--title-text-color);
+}
+
+.mobile-menu-open {
+    line-height: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    margin-left: auto;
+}
+
+.mobile-menu {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+}
+
+.mobile-menu_container {
+    position: relative;
+    padding-left: 40px;
+    padding-top: 80px;
+    padding-right: auto;
+    padding-bottom: 40px;
+}
+
+.mobile-menu_close-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    line-height: 0;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mobile-menu_close-btn:hover,
+.mobile-menu_close-btn:focus {
+    background-color: var(--accent-color);
+    fill: #FFFFFF;
+}
+
+.mobile-menu_close-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    margin: 0;
+    padding: 0;
+}
+
+.mobile-nav-menu {
+    margin-left: 0;
+    margin-right: auto;
+    text-align: left;
+}
+
+.mobile-nav-menu li.mobile-nav-item:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.mobile-nav-item .menu-link,
+.mobile-adress-menu .tel {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1, 11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.mobile-adress-menu .mailto {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.mobile-adress-menu {
+    margin-top: 284px;
+    padding: 0;
+}
+
+.mobile-socmedia-list {
+    display: flex;
+    min-width: 256px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+    padding: 0;
+}
+
+.mobile-socmedia-list-icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--light-mode-color);
+}
+
+.mobile-socmedia-list-item-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--link-button-color);
+
+}
+
+.mobile-socmedia-list-item-link:hover,
+.mobile-socmedia-list-item-link:focus {
+    background-color: var(--success-mode-color);
+}

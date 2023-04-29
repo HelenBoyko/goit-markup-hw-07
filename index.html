@@ -21,30 +21,33 @@
 
     <title>WebStudio</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile-menu.css">
   </head>
   <body>
     <!-- =================== Header =================== -->
     <header class="header">
       <div class="container nav-line">
         <nav class="nav-menu-container">
-          <a class="logo-header link" href="./index.html"
-            >Web<span class="logo-color">Studio</span>
+        <a class="logo-header link" href="./index.html">Web<span class="logo-color">Studio</span>
           </a>
-          <ul class="list menu">
-            <li class="item">
-              <a class="menu-link current link" href="./index.html">Studio</a>
-            </li>
-            <li class="item">
-              <a class="menu-link link" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="item">
-              <a class="menu-link link" href="">Contacts</a>
-            </li>
+          <div class="menu-block">
+            <ul class="list menu">
+               <li class="item">
+                 <a class="menu-link current link" href="./index.html">Studio</a>
+               </li>
+               <li class="item">
+                 <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+               </li>
+               <li class="item">
+                 <a class="menu-link link" href="">Contacts</a>
+               </li>
           </ul>
+          </div>
         </nav>
         <button type="button" class="mobile-menu-open">
           <svg class="icon-menu-hamburger" width="32" height="22"><use href="./images/icons.svg#icon-menu-hamburger"></use></svg>
-        </button>
+         </button>
+          
         <address class="address-block">
           <ul class="list menu">
             <li class="item">
@@ -52,15 +55,49 @@
                 >info@devstudio.com</a
               >
             </li>
-            <li class="item">
-              <a class="contact link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
+            <li class="item"><a class="contact link" href="tel:+110001111111">+11 (000) 111-11-11</a>
             </li>
           </ul>
         </address>
       </div>
-      
+      <div class="mobile-socmedia-list-container">
+          <ul class="mobile-socmedia-list list">
+              <li class="link socmedia-list-item">
+                <a
+                  href="https://instagram.com/"
+                  target="_blank"
+                  class="mobile-socmedia-list-item-link">
+                  <svg class="mobile-socmedia-list-icon">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="link mobile-socmedia-list-item">
+                <a
+                  href="https://twitter.com/"
+                  target="_blank"
+                  class="mobile-socmedia-list-item-link"
+                  ><svg class="mobile-socmedia-list-icon">
+                    <use href="./images/icons.svg#icon-twitter"></use></svg></a>
+              </li>
+              <li class="link mobile-socmedia-list-item">
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  class="mobile-socmedia-list-item-link"
+                  ><svg class="mobile-socmedia-list-icon">
+                    <use href="./images/icons.svg#icon-facebook"></use></svg></a>
+              </li>
+              <li class="link mobile-socmedia-list-item">
+                <a
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  class="mobile-socmedia-list-item-link"
+                  ><svg class="mobile-socmedia-list-icon">
+                    <use href="./images/icons.svg#icon-linkedin"></use></svg></a>
+              </li>
+          </ul>
+      </div>
     </header>
     <!-- =================== Main =================== -->
     <main>
@@ -581,12 +618,13 @@
           <button type="submit">Send</button>
         </form>
       </div>
-    </div>
+    </div>-->
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init()
     </script>
-    <script src="./JS/modal.js"></script> -->
+    <script src="./JS/modal.js"></script>
+    <script src="./JS/mobile-menu.js"></script> 
   </body>
 </html>
