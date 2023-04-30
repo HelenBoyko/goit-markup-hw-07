@@ -307,21 +307,7 @@ button {
     background-image: url(../images/astronaut.png);
 }
 
-.text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--primary-text-color);
-    padding-top: 8px;
-}
 
-.doing-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 72px;
-    gap: 24px;
-}
 
 .team {
     background-color: #F4F4FD;
