@@ -104,8 +104,7 @@ button {
 }
 
 .container {
-    padding-left: 16px;
-    padding-right: 16px;
+
     margin-left: auto;
     margin-right: auto;
     /* max-width: 427px; */
@@ -115,8 +114,8 @@ button {
 .nav-line {
     display: flex;
     flex-wrap: nowrap;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding: 16px;
+
     justify-content: space-between;
 }
 
@@ -135,6 +134,12 @@ button {
 .customers,
 .portfolio {
     background-color: #FFFFFF;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* =================== HERO  ===================*/
@@ -180,9 +185,13 @@ button {
 .team {
     background-color: #F4F4FD;
     padding-top: 96px;
+    padding-bottom: 96px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     align-items: center;
-
 }
 
 .team-list {
@@ -198,8 +207,7 @@ button {
     background-color: #FFFFFF;
     box-shadow: var(--card-shadow);
     border-radius: 0px 0px 4px 4px;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 
 .team-container {
@@ -212,7 +220,8 @@ button {
 
 .socmedia-list {
     display: flex;
-    width: 100%;
+    width: 232px;
+    gap: 24px;
     align-items: center;
     justify-content: space-between;
     margin-top: 8px;
@@ -476,10 +485,10 @@ button {
     margin-bottom: 16px;
 }
 
-/* .modal-form-comment span {
+.modal-form-comment span {
     display: block;
     margin-bottom: 4px;
-} */
+}
 
 .modal-form label {
     font-size: 12px;
@@ -641,13 +650,10 @@ button {
         width: 200px;
     }
 
-    .team .container {
+    /* .team .container {
         margin-left: auto;
         margin-right: auto;
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 96px;
-    }
+    } */
 
     .team-card {
         width: 100%;
@@ -680,11 +686,12 @@ button {
         display: none;
     }
 
+    /* 
     .team .container {
         margin-left: auto;
         margin-right: auto;
         width: 100%;
-    }
+    } */
 
     .footer .container {
         width: 428px;
@@ -736,11 +743,7 @@ button {
     }
 
     /* =================== FEATURES  ===================*/
-    .features {
-        margin-top: 96px;
-        margin-bottom: 96px;
-        padding-top: 0px;
-    }
+
 
     .features .container h3 {
         font-weight: 700;
@@ -775,10 +778,6 @@ button {
     }
 
     /* ===================TEAM=================== */
-    .team .container {
-
-        padding-bottom: 96px;
-    }
 
     .team-card {
         width: 100%;
@@ -786,12 +785,11 @@ button {
     }
 
     /* ===================CUSTOMERS=================== */
-    .customers .container {
-        padding-top: 96px;
-        padding-bottom: 96px;
+    /* .customers .container {
+
         margin-left: auto;
         margin-right: auto;
-    }
+    } */
 
     .customers-list {
         display: flex;
@@ -806,7 +804,7 @@ button {
 
     /* ===================FOOTER=================== */
     .footer .container {
-        padding: 96px 16px;
+        /* padding: 96px 16px; */
         margin-left: auto;
         margin-right: auto;
         width: 767px;
@@ -999,13 +997,11 @@ button {
         color: var(--title-text-color);
     }
 
+    .feature h3 {
+        text-align: left;
+    }
 
     /* =================== FEATURES  ===================*/
-    .features {
-        margin-top: 96px;
-        margin-bottom: 96px;
-        padding-top: 0px;
-    }
 
     .features-list {
         display: flex;
@@ -1021,11 +1017,6 @@ button {
     }
 
     /* =================== TEAM  ===================*/
-    .team .container {
-        padding-left: 92px;
-        padding-right: 92px;
-        padding-bottom: 96px;
-    }
 
     .team-list {
         display: flex;
@@ -1033,17 +1024,13 @@ button {
         flex-wrap: wrap;
         row-gap: 64px;
         column-gap: 24px;
+        justify-content: center;
         margin-top: 72px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .customers .container {
-        padding-top: 96px;
-        padding-bottom: 96px;
-        padding-left: 16px;
-        padding-right: 16px;
-        text-align: center;
-    }
-
+    /* =================== CUSTOMERS  ===================*/
     .customers-list {
         display: flex;
         flex-direction: row;
@@ -1056,14 +1043,21 @@ button {
     }
 
     /* ===================FOOTER=================== */
+    /* .footer .container {
+        width: 768px;
+        margin-left: auto;
+        margin-right: auto;
+    } */
 
     .footer-navigation {
-        flex-direction: flex;
+        flex-direction: row;
         flex-wrap: wrap;
         row-gap: 72px;
         align-items: flex-start;
-        justify-content: left;
+        justify-content: flex-start;
         padding-left: 92px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .footer-part-logo,
@@ -1120,7 +1114,7 @@ button {
 
 @media screen and (min-width:1158px) {
     .container {
-        max-width: 1128px;
+        max-width: 1158px;
     }
 
     .nav-line {
@@ -1255,22 +1249,9 @@ button {
         display: flex;
     }
 
-    .team {
-        padding-top: 120px;
-    }
-
-    .doing,
-    .team {
-        padding-bottom: 120px;
-    }
-
     /* ===================FEATURES=================== */
-    .features .container {
-        padding: 0;
-    }
-
     .features {
-        margin-top: 120px;
+        padding-bottom: 0;
     }
 
     .features-list {
@@ -1333,10 +1314,6 @@ button {
 
     /* ===================TEAM=================== */
 
-    .team {
-        padding: 0;
-    }
-
     .team-list {
         display: flex;
         flex-direction: row;
@@ -1352,13 +1329,13 @@ button {
         border-radius: 0px 0px 4px 4px;
     }
 
-    .team .container {
+    /* .team .container {
         padding-top: 120px;
         padding-bottom: 120px;
 
         margin-left: auto;
         margin-right: auto;
-    }
+    } */
 
     .team-container>.socmedia-list {
         margin-top: 8px;
@@ -1371,12 +1348,7 @@ button {
 
     /*    =================== CUSTOMERS =================== */
 
-    .customer .container {
-        padding: 0;
-        margin-left: auto;
-        margin-right: auto;
-        width: 1128px;
-    }
+
 
     .customers-list {
         display: flex;
@@ -1423,15 +1395,19 @@ button {
 
     /* --=================== FOOTER=================== */
     .footer-bg .container {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .footer-navigation {
         display: flex;
+        flex-direction: row;
         flex-wrap: nowrap;
         padding-left: 0;
+    }
 
+    .footer-part-logo {
+        width: 264px;
     }
 
     .footer-part-socmedia {
@@ -1443,17 +1419,16 @@ button {
 
     .socmedia-list {
         display: flex;
-        width: 100%;
+        width: 208px;
         align-items: center;
         justify-content: space-between;
         margin-top: 16px;
         padding: 0;
-        gap: 16px;
     }
 
     .footer-part-subscribe {
         display: block;
-        margin-left: auto;
+        /* margin-left: auto; */
     }
 
     .footer-part-subscribe label {
@@ -1495,7 +1470,7 @@ button {
         background-color: var(--link-button-color);
         border-radius: 4px;
         align-items: center;
-        padding: 8px 24px;
+        /* padding: 8px 24px; */
         margin-top: 16px;
         display: flex;
         align-items: center;
