@@ -84,6 +84,7 @@
         text-align: left;
     }
 
+    .mobile-adress-menu .list,
     .mobile-nav-menu li.mobile-nav-item:not(:last-child) {
         margin-bottom: 40px;
     }
@@ -95,6 +96,25 @@
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
+
+    }
+
+    .mobile-adress-menu .tel {
+        color: var(--link-button-color)
+    }
+
+    .menu-link {
+        display: block;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+    }
+
+    .menu-link:hover,
+    .menu-link:focus {
+        color: var(--accent-color);
     }
 
     .mobile-adress-menu {
@@ -107,6 +127,7 @@
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #434455;
+
     }
 
     .mobile-socmedia-list {
