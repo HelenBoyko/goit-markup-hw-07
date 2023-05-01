@@ -662,10 +662,7 @@ button {
     }
 
     .hero-title {
-        font-size: 36px;
-        line-height: 1.11;
-        text-align: center;
-        letter-spacing: 0.02em;
+        width: 320px;
 
     }
 
@@ -824,9 +821,6 @@ button {
 
 .hero-title {
     font-size: 30px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
     width: 290px;
 
 }
@@ -853,15 +847,6 @@ button {
 
     .container {
         max-width: 428px;
-    }
-
-    .hero-title {
-        font-size: 36px;
-        line-height: 1.11;
-        text-align: center;
-        letter-spacing: 0.02em;
-        width: 320px;
-
     }
 
     .doing {
@@ -1125,6 +1110,15 @@ button {
 @media screen and (min-width:1158px) {
     .container {
         max-width: 1158px;
+    }
+
+    .hero-title {
+
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
     }
 
     .nav-line {
