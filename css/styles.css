@@ -107,7 +107,6 @@ button {
 
     margin-left: auto;
     margin-right: auto;
-    /* max-width: 427px; */
     width: 100%;
 }
 
@@ -653,58 +652,21 @@ button {
     background-color: var(--accent-color)
 }
 
-/* ================================================ до 427 px=========================== */
 
-@media screen and (max-width:427) {
-    .container {
-        width: 100%;
-    }
-}
-
-.hero-title {
-    width: 200px;
-}
-
-.team-card {
-    width: 100%;
-    max-width: 264px;
-}
-
-.footer-navigation {
-    flex-direction: column;
-    row-gap: 72px;
-    align-items: center;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-}
-
-/* ================================================ від 428 px=========================== */
-
-@media screen and (min-width:428px) {
-    .hero-title {
-        width: 320px;
-    }
-
-    .container {
-        max-width: 428px;
-    }
-
-    .doing {
-        display: none;
-    }
-
-    .modal-wind {
-        width: 392px;
-    }
-}
 
 /* ================================================ до 767 px=========================== */
 
 @media screen and (max-width:767px) {
     .container {
         max-width: 767px;
+    }
+
+    .hero-title {
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+
     }
 
     .menu,
@@ -850,6 +812,56 @@ button {
         align-items: center;
     }
 
+}
+
+/* ================================================ до 427 px=========================== */
+
+@media screen and (max-width:427) {
+    .container {
+        width: 100%;
+    }
+}
+
+.hero-title {
+    font-size: 30px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    width: 290px;
+
+}
+
+.team-card {
+    width: 100%;
+    max-width: 264px;
+}
+
+.footer-navigation {
+    flex-direction: column;
+    row-gap: 72px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+}
+
+/* ================================================ від 428 px=========================== */
+
+@media screen and (min-width:428px) {
+
+
+    .container {
+        max-width: 428px;
+    }
+
+    .doing {
+        display: none;
+    }
+
+    .modal-wind {
+        width: 392px;
+    }
 }
 
 /* ================================================ від 768 px=========================== */
